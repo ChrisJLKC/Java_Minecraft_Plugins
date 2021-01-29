@@ -1,0 +1,9 @@
+main: me.chris.gui.main
+name: customgui
+version: 1.0.3
+api-version: 1.13
+
+commands:
+   Changeteam: 
+   Gamble: 
+   

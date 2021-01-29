@@ -1,0 +1,17 @@
+reload:
+  message: 
+    - "&a&1You reloaded the block sorter!"
+    - "&c&1Go and mine away!"
+
+blocks:
+  DIRT: 
+    - DIRT 
+    - DIRT
+    - STONE
+    - EMERALD
+  
+  SAND: 
+    - SAND
+    - STONE
+    - DIRT
+    - IRON_INGOT

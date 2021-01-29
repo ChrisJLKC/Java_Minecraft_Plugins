@@ -1,0 +1,4 @@
+main: me.chris.customrecipe.main
+name: customrecipes
+version: 1.0.0
+api-version: 1.13
