@@ -1,0 +1,7 @@
+main: me.chris.kits.main
+name: starterkits
+version: 1.0.0
+api-version: 1.13
+
+commands: 
+   Kits: 
