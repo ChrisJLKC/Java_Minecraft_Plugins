@@ -1,0 +1,8 @@
+main: me.chris.trailsgui.main
+name: particles
+version: 1.0.0
+api-version: 1.15
+
+commands:
+   Trails: 
+   
