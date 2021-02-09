@@ -62,6 +62,9 @@ public class main extends JavaPlugin {
 					player.sendMessage(ChatColor.DARK_PURPLE + "skull" + ChatColor.WHITE + " - Get anyones head in Mojang");
 					player.sendMessage(ChatColor.DARK_PURPLE + "randomblock" + ChatColor.WHITE + " - resets random block collection");
 					player.sendMessage(ChatColor.DARK_PURPLE + "mystats" + ChatColor.WHITE + " - shows stats of player");
+					player.sendMessage(ChatColor.DARK_PURPLE + "pv" + ChatColor.WHITE + " - Private Inventory");
+					player.sendMessage(ChatColor.DARK_PURPLE + "kits" + ChatColor.WHITE + " - Different kits for your choosing");
+					player.sendMessage(ChatColor.DARK_PURPLE + "trails" + ChatColor.WHITE + " - Add a trail to your player");
 					return true;
 				}
 				player.sendMessage(ChatColor.RED + "You do not have permission!");
