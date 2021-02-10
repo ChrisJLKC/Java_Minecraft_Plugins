@@ -75,9 +75,10 @@ public class main extends JavaPlugin implements Listener {
 				if (count == 12) count = 0;
 				
 				// with this we are getting a scrolling effect with our title of our score board
+				// Useful reference to different colours in mine craft: https://www.colorschemer.com/minecraft-color-codes/
 				switch(count) {					
 				case 0:
-					// Getting the title, changing colour from green to pink (&d&l = pink &2&l = green)
+					// Getting the title, changing colour from green to pink (&d&l = bold pink &2&l = bold green)
 					player.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName(
 							ChatColor.translateAlternateColorCodes('&', "&a&l<< &d&lA&2&lWESOME &a&l>>"));
 					break;
