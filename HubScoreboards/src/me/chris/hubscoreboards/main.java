@@ -39,6 +39,7 @@ public class main extends JavaPlugin implements Listener {
 	}
 	
 	// When a player joins
+	// (These act like high priority interrupts (Listeners for example: EventHandlers)
 	@EventHandler
 	public void onJoin(PlayerJoinEvent event) {
 		// creates score board for player
