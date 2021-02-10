@@ -35,7 +35,7 @@ public class main extends JavaPlugin implements Listener {
 
 	@Override
 	public void onDisable() {
-
+		
 	}
 	
 	// When a player joins
@@ -48,6 +48,7 @@ public class main extends JavaPlugin implements Listener {
 	}
 	
 	// When a player leaves
+	@EventHandler
 	public void onQuit(PlayerQuitEvent event) {
 		// using our runnable classes we made in the ActiveBoard class, we can see if the player has a runnable to their ID
 		ActiveBoard board = new ActiveBoard(event.getPlayer().getUniqueId());
@@ -135,6 +136,11 @@ public class main extends JavaPlugin implements Listener {
 							ChatColor.translateAlternateColorCodes('&', "&a&l<< &2&lAWESOME &a&l>>"));
 					// updating the board
 					createBoard(player);
+					break;
+				
+				default:
+					player.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName(
+							ChatColor.translateAlternateColorCodes('&', "&a&l<< &2&lAWESOME &a&l>>"));
 					break;
 					
 				}

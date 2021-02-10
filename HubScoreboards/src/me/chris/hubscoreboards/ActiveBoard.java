@@ -41,7 +41,7 @@ public class ActiveBoard {
 	
 	// stopping refresh of the particular thing on the score board, mainly used when player leaves the server
 	public void stop() {
-		Bukkit.getScheduler().cancelTask(TASKS.get(uuid));
+		Bukkit.getScheduler().cancelTask(getID());
 		TASKS.remove(uuid);
 	}
 }
