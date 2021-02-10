@@ -1,0 +1,4 @@
+main: me.chris.bossbars.main
+name: bossbars
+version: 1.0.0
+api-version: 1.13
